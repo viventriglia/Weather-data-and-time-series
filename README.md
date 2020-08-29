@@ -7,4 +7,4 @@ Weather data have been collected from [NOAA](https://www.noaa.gov/). We used the
 We downloaded a station list and used it to locate temperature data for cities. We managed missing values and smoothed time series in order to enhance the information out of the noise. Finally, we created some visualisations of daily temperatures.
 
 ## Time series
-![locations of weather stations](image.jpg)
+![locations of weather stations](locations.png)
