@@ -1,4 +1,4 @@
-# Weather data and time series
+# Weather-data-and-time-series
 
 *Example time-series analysis portfolio, using Python (NumPy, Matplotlib)*
 
