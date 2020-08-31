@@ -8,7 +8,11 @@ We download a list of stations and use it to locate temperature data for differe
 
 ## The database
 By plotting longitude against latitude, we can get a feel of the global coverage of the database.
-![locations of weather stations](locations.png)
+<p align="center">
+  <img alt="locations of weather stations" src="locations.png" width="100%">
+  <br>
+    <em>Global coverage of weather stations</em>
+</p>
 
 ## Dealing with missing information
 Next, we should face the problem of making sense of missing values in the database. This is a common aspect in data analysis and actually we could just ignore them. If we do need an uninterrupted series of numbers, we could set the missing entries, for istance, to the average of the respective column. A more sophisticated approach to restore missing values is given by [interpolation](https://numpy.org/doc/stable/reference/generated/numpy.interp.html), which selects the "good" data points and returns estimated values for the missing ones, that are interpolated linearly by fitting segments between existing data points. Here we follow this approach, which is actually rather conservative, hence intrinsically safe.
@@ -23,7 +27,7 @@ We try this out, for instance, over multiple years for Roma Ciampino, an interna
 <p align="center">
   <img alt="climate in Rome for different years" src="ROMA.png" width="100%">
   <br>
-    <em>Climate in Rome for different years</em>
+    <em>Climate in Rome for three different years</em>
 </p>
 Next, we wish to compare cities in different climates. To this end, we look over four US cities, namely New Orleans (Louisiana), New York City (New York), San Diego (California) and Minneapolis (Minnesota), focusing on the year 2019.
 <p align="center">
@@ -31,4 +35,4 @@ Next, we wish to compare cities in different climates. To this end, we look over
   <br>
     <em>Climate in four US cities in 2019</em>
 </p>
-Note that the different shapes of the curves reflect the fact that insolation is not constant over the surface of the Earth: as the Earth orbits around the Sun, the insolation is concentrated in the northern hemisphere (summer in the northern hemisphere) and then in the southern hemisphere (winter in the northern hemisphere). On a yearly average, the equatorial region receives the most insolation, so we expect it to be the warmest – as it is.
+Note that the different shapes of the curves reflect the fact that [insolation](https://www.geog.ucsb.edu/ideas/Insolation.html) is not constant over the surface of the Earth: as the Earth orbits around the Sun, the insolation is concentrated in the northern hemisphere (summer in the northern hemisphere) and then in the southern hemisphere (winter in the northern hemisphere). On a yearly average, the equatorial region receives the most insolation, so we expect it to be the warmest – as it is.
