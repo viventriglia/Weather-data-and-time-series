@@ -1,6 +1,6 @@
 # Weather-data-and-time-series
 
-*Example time-series analysis portfolio*
+*Example time-series analysis portfolio, using Python (NumPy, Matplotlib)*
 
 ## Introduction
 We collect weather data from [NOAA](https://www.noaa.gov/) and use the integrated [GHCN-Daily](https://www.ncdc.noaa.gov/ghcn-daily-description) database of daily climate summaries from stations across the globe. This means looking at variables such as the minimum and maximum temperatures, the total precipitations, and so on.
