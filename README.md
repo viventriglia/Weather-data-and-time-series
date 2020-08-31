@@ -21,10 +21,14 @@ We follow a simple, direct approach to smoothing by replacing each value with th
 ## Daily temperatures
 We try this out, for instance, over multiple years for Roma Ciampino, an international airport just outside Rome, to check if the climate is stable. Quite so.
 <p align="center">
-  <img alt="climate in Rome for different years" src="ROMA.png" width="95%">
+  <img alt="climate in Rome for different years" src="ROMA.png" width="100%">
   <br>
-    <em>Climate in Rome for different years (smoothed time series)</em>
+    <em>Climate in Rome for different years</em>
 </p>
-Next, we wish to compare cities in different climates. To this end, we look over four US cities, namely Pasadena (California), New York City (New York), 
-
+Next, we wish to compare cities in different climates. To this end, we look over four US cities, namely New Orleans (Louisiana), New York City (New York), San Diego (California) and Minneapolis (Minnesota), focusing on the year 2019.
+<p align="center">
+  <img alt="climate in four different US cities" src="4_US_cities.png" width="100%">
+  <br>
+    <em>Climate in four US cities in 2019</em>
+</p>
 Note that the different shapes of the curves reflect the fact that insolation is not constant over the surface of the Earth: as the Earth orbits around the Sun, the insolation is concentrated in the northern hemisphere (summer in the northern hemisphere) and then in the southern hemisphere (winter in the northern hemisphere). On a yearly average, the equatorial region receives the most insolation, so we expect it to be the warmest – as it is.
