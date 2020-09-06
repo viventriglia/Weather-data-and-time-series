@@ -36,5 +36,3 @@ Next, we wish to compare cities in different climates. To this end, we look over
     <em>Climate in four US cities in 2019</em>
 </p>
 Note that the different shapes of the curves reflect the fact that [insolation](https://www.geog.ucsb.edu/ideas/Insolation.html) is not constant over the surface of the Earth: as the Earth orbits around the Sun, the insolation is concentrated in the northern hemisphere (summer in the northern hemisphere) and then in the southern hemisphere (winter in the northern hemisphere). On a yearly average, the equatorial region receives the most insolation, so we expect it to be the warmest – as it is.
-
-<iframe src="https://viventriglia.github.io/Weather-data-and-time-series/03_01_visualization_end.html"></iframe>
